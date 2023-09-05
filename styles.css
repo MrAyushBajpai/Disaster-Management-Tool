@@ -70,3 +70,22 @@ body {
 .card-title {
     margin: 0;
 }
+
+.alert-card {
+    transition: transform 0.2s ease-in-out;
+    height: 200px; /* Set a fixed height for the card */
+    color: #fff; /* White text color */
+}
+
+.alert-card:hover {
+    transform: scale(1.05);
+}
+
+.white-background-card {
+    transition: transform 0.2s ease-in-out;
+    height: 200px; /* Set a fixed height for the card */
+}
+
+.white-background-card:hover {
+    transform: scale(1.05);
+}
