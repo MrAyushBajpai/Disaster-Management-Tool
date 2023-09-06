@@ -102,6 +102,10 @@ body {
     color: #fff; 
 }
 
+.home-card {
+    text-decoration: none;
+}
+
 .alert-card:hover {
     transform: scale(1.05);
 }
@@ -138,4 +142,8 @@ body {
 .rounded-circle-link:hover .mt-2 {
     color: #007bff; 
     transition: color 0.3s ease;
+}
+
+.list-group {
+    padding: 20px;
 }
