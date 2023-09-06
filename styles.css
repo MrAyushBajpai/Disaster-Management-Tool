@@ -64,6 +64,11 @@ body {
     }
 }
 
+.mt-2 {
+    color: #000;
+    font-size: 20px;
+}
+
 /* Clickable Card */
 .clickable-card {
     cursor: pointer;
@@ -93,20 +98,44 @@ body {
 /* Alert Card */
 .alert-card {
     transition: transform 0.2s ease-in-out;
-    height: 200px; /* Set a fixed height for the card */
-    color: #fff; /* White text color */
+    height: 200px; 
+    color: #fff; 
 }
 
 .alert-card:hover {
     transform: scale(1.05);
 }
 
-/* White Background Card */
 .white-background-card {
     transition: transform 0.2s ease-in-out;
-    height: 200px; /* Set a fixed height for the card */
+    height: 200px;
 }
 
 .white-background-card:hover {
     transform: scale(1.05);
+}
+
+.rounded-circle {
+    background-color: black;
+}
+
+.rounded-circle-image {
+    width: 100%; /* Set the width to 100% to cover the entire circle */
+    height: 100%; /* Set the height to 100% to cover the entire circle */
+    object-fit: cover; /* Ensure the image covers the entire space without distortion */
+    border-radius: 50%; /* Apply a circular mask */
+}
+
+.rounded-circle-link {
+    text-decoration: none;
+    margin:20px; 
+}
+
+.rounded-circle-link:hover .rounded-circle {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; }
+
+.rounded-circle-link:hover .mt-2 {
+    color: #007bff; 
+    transition: color 0.3s ease;
 }
