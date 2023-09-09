@@ -32,7 +32,7 @@ body {
 }
 
 /* Useful Info Section */
-.useful-info-section {
+#useful-info {
     background-color: var(--secondary-background-color);
 }
 
