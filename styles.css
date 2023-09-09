@@ -72,6 +72,10 @@ body {
     padding: 10px
 }
 
+#recent-disasters-heading{
+    color: #000;
+}
+
 /* Clickable Card */
 .clickable-card {
     cursor: pointer;
