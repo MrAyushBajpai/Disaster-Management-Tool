@@ -150,3 +150,48 @@ body {
 .list-group {
     padding: 20px;
 }
+
+#questions {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Limit the width of the quiz container */
+    margin: 0 auto; /* Center the quiz container horizontally */
+    margin-top: 100px;
+}
+
+#questions h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#quiz-form ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+#quiz-form li {
+    margin-bottom: 20px;
+}
+
+/* Style the submit button */
+#submit-button {
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the correct answer display */
+#results {
+    font-weight: bold;
+    margin-top: 20px;
+}
