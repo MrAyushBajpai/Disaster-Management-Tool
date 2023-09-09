@@ -31,10 +31,6 @@ body {
     text-align: center;
 }
 
-/* Useful Info Section */
-#useful-info {
-    background-color: var(--secondary-background-color);
-}
 
 /* Container with Margin Top */
 .container.mt-4 {
