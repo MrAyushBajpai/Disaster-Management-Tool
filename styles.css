@@ -23,6 +23,10 @@ body {
     color: var(--primary-text-color);
 }
 
+.text-dark {
+    color: #000 !important;
+}
+
 /* Footer */
 .footer {
     background-color: var(--secondary-background-color);
@@ -96,6 +100,12 @@ body {
 
 #recent-disasters-heading{
     color: var(--primary-text-color);
+}
+
+/* Apply a golden gradient background to the right box */
+.golden-gradient-bg {
+    background-image: linear-gradient(45deg, #b39702, #f2e07e); /* Adjust the gradient colors as needed */
+    color: #fff; /* Set text color to white for better visibility */
 }
 
 /* Updated styles for the wide rectangular block */
