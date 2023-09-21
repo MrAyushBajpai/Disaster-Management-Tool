@@ -13,7 +13,7 @@ function changeJumbotronText() {
     setInterval(() => {
         changingText.textContent = messages[currentIndex];
         currentIndex = (currentIndex + 1) % messages.length;
-    }, 5000); // Change text every 5 seconds
+    }, 3000); // Change text every 5 seconds
 }
 
 // Call the function to start text cycling
