@@ -243,20 +243,30 @@ body {
     background-color: #f7f7f7;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    max-width: 600px; /* Limit the width of the quiz container */
+    box-shadow: 0px 0px 10px rgba(2, 2, 5, 0.2);
+    max-width: 900px; /* Limit the width of the quiz container */
     margin: 0 auto; /* Center the quiz container horizontally */
     margin-top: 100px;
+    margin-bottom:100px;
 }
 
 #questions h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 55px;
+    text-align:center;
 }
+
+.que{
+    font-size: 23px;
+    margin-top:70px;
+    font-family:roboto;
+    font-weight: 700;
+}
+
 
 #quiz-form ol {
     list-style-type: decimal;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 #quiz-form li {
@@ -272,6 +282,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-top:50px;
+    margin-left:370px;
 }
 
 #submit-button:hover {

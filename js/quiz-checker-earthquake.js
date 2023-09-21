@@ -25,7 +25,13 @@ function calculateResults() {
     }
 
     // Display the score
-    alert('Your score: ' + score + ' out of 10');
+    if (score>5){
+        alert('Your score: ' + score + ' out of 10 \n YOU WILL SURVIVE');    
+    }
+    else{
+        alert('Your score: ' + score + ' out of 10 \n YOU WILL NOT SURVIVE\n TAKE SUBSCRIPTION');    
+    }
+  
 }
 
 // Attach an event listener to the submit button
