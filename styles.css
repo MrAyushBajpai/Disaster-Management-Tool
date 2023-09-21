@@ -40,43 +40,50 @@ body {
 
 /* Wavy Jumbotron */
 /* Wavy Jumbotron Styles */
-.wavy-jumbotron {
-    background-image: linear-gradient(45deg, #ff0000, #ff4500, #ffa500, #ff0000);
+/* Center the text and image in the middle of the jumbotron */
+.jumbotron {
+    background: transparent;
     background-size: 200% 200%;
-    animation: wave 5s linear infinite;
     margin-top: 20px;
-    padding-top: 120px;
-    padding-bottom: 100px;
-    color: #fff;
+    padding: 120px 0; /* Increase the top padding to vertically center the content */
+    color: #000;
     font-family: 'Playfair Display', serif;
+    text-align: center; /* Center-align text */
+}
+
+.jumbotron-text {
+    padding-bottom: 20px; /* Reduce the padding to overlap text and image */
+}
+
+.jumbotron .row {
+    align-items: center; /* Vertically center the row content */
 }
 
 /* Text inside the jumbotron */
-.wavy-jumbotron .col-md-6.text-left {
-    text-align: left; /* Align text to the left */
+.jumbotron .col-md-6.text-left {
+    text-align: center; /* Center-align text */
 }
 
 /* Image inside the jumbotron */
-.wavy-jumbotron .col-md-6 {
-    text-align: right; /* Align image to the right */
+.jumbotron .col-md-6 {
+    text-align: center; /* Center-align image */
 }
+
+/* Adjust the image size */
+.img-fluid.jumbotron-img {
+    max-width: 80%; /* Reduce the image size as needed */
+    position: relative; /* Position the image relative to its container */
+    top: -50px; /* Move the image up slightly to overlap text */
+}
+
 
 .home-heading{
     font-size: 50px;
+    color: #000
 }
 
 #changing-heading {
     font-size: 70px;
-}
-
-/* Keyframe Animation for Wavy Jumbotron */
-@keyframes wave {
-    0% {
-        background-position: 200% 0;
-    }
-    100% {
-        background-position: -200% 0;
-    }
 }
 
 .mt-2 {
