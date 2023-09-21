@@ -22,13 +22,22 @@
 
     <div class="jumbotron wavy-jumbotron">
         <div class="container">
-            <h1 class="display-4" id="changing-heading">Welcome to Disaster Awareness Portal</h1>
-            <p class="lead">We are here to help you prepare for and respond to natural disasters.</p>
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h1 class="display-4 mb-5" id="changing-heading">Welcome to Disaster Awareness Portal</h1>
+                    <p class="lead mt-5">We are here to help you prepare for and respond to natural disasters.</p>
+                    <p>This portal provides valuable information and resources to keep you informed and safe during disasters.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://placehold.co/600x600" alt="Disaster Image" class="img-fluid" />
+                </div>
+            </div>
         </div>
     </div>
+    
 
     <div class="container mt-4" id="recent-disasters-heading">
-        <h2>Recent Disasters</h2>
+        <h2 class="home-heading">Recent Disasters</h2>
         <ul class="list-group"></ul>
         <button id="view-more-button" class="btn btn-primary mt-3">View More</button>
     </div>
@@ -36,7 +45,7 @@
 
     <div class="useful-info-section">
     <div class="container mt-4" id="useful-info">
-        <h2>Useful Information</h2>
+        <h2 class="home-heading">Useful Information</h2>
         <div class="row">
             <div class="col-md-3 mb-4">
                 <a href="mock-exercise.html" class="home-card">
@@ -76,7 +85,7 @@
 
     <div class="emergency-alerts-section">
         <div class="container mt-4">
-            <h2>Emergency Alerts</h2>
+            <h2 class="home-heading">Emergency Alerts</h2>
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="card alert-card" id="cap-alert-card">

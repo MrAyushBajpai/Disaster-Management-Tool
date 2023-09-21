@@ -39,15 +39,29 @@ body {
 }
 
 /* Wavy Jumbotron */
+/* Wavy Jumbotron Styles */
 .wavy-jumbotron {
     background-image: linear-gradient(45deg, #ff0000, #ff4500, #ffa500, #ff0000);
     background-size: 200% 200%;
     animation: wave 5s linear infinite;
     margin-top: 20px;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
     color: #fff;
-    text-align: center;
+}
+
+/* Text inside the jumbotron */
+.wavy-jumbotron .col-md-6.text-left {
+    text-align: left; /* Align text to the left */
+}
+
+/* Image inside the jumbotron */
+.wavy-jumbotron .col-md-6 {
+    text-align: right; /* Align image to the right */
+}
+
+.home-heading{
+    font-size: 50px;
 }
 
 /* Keyframe Animation for Wavy Jumbotron */
