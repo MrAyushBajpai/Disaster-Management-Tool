@@ -19,6 +19,34 @@ body {
     text-align: center;
 }
 
+.s-l{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family:roboto;
+    background-color: rgba(84, 180, 224, 0.918);
+    color:white;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #fff;
+    font-weight: 700;
+    font-size:16px;
+    background: transparent;
+    border-style: double;
+}
+
+.s-l:hover{
+    cursor: pointer;
+    background-color:rgba(141, 207, 238, 0.918) ;
+    transition-delay: 0.1s;
+
+}
+
+.s-l:active{
+    opacity:0.7;
+}
+
 .nav-item .nav-link {
     color: var(--primary-text-color);
 }
