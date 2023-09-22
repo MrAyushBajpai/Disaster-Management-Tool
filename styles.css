@@ -263,6 +263,64 @@ body {
     font-weight: 700;
 }
 
+.cy-h{
+    margin-bottom:10px;
+}
+.cy-heading{
+    display:flex;
+    justify-content: center;
+    font-size:35px;
+    font-family:roboto;
+    font-weight:700;
+    margin-top:100px;
+    
+}
+
+.cy-preview-container {
+display: flex;
+justify-content: center;
+margin-top:20px;
+}
+
+.cy-preview{
+    display:flex;
+    align-items:flex-end;
+    flex: 0 0 calc(50% - 10px);
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px  ;
+    border-width: 1px;
+    padding:10px;
+    border-radius: 20px;
+    margin-bottom:50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cy-image{
+    display:inline-block;
+    padding-bottom: 20px;
+    
+
+}
+
+.cy-info{
+    display:inline-block;
+    
+}
+
+.cy-name{
+    font-size:26px;
+    font-weight: 500;
+    padding-left: 15px;
+    display: inline-block;
+    
+}
+
+.cy-details{
+    padding-top: 40px;
+    padding-left:15px;
+    
+}
 
 #quiz-form ol {
     list-style-type: decimal;
