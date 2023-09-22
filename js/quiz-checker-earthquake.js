@@ -26,10 +26,10 @@ function calculateResults() {
 
     // Display the score
     if (score>5){
-        alert('Your score: ' + score + ' out of 10 \n YOU WILL SURVIVE');    
+        alert('Your score: ' + score + ' out of 10 \n Your score is well.');    
     }
     else{
-        alert('Your score: ' + score + ' out of 10 \n YOU WILL NOT SURVIVE\n TAKE SUBSCRIPTION');    
+        alert('Your score: ' + score + ' out of 10 \n Your score is low. Take Subscription');    
     }
   
 }
