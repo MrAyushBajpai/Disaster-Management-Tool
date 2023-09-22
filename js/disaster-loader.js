@@ -8,21 +8,25 @@ const allDisasters = [
         title: "Tropical Cyclone",
         description: "Category 4 cyclone strikes coastal region.",
         date: "September 1, 2023",
+        link: "disaster_detail.html"
     },
     {
         title: "Earthquake",
         description: "Magnitude 6.2 earthquake hits nearby area.",
         date: "August 25, 2023",
+        link: "disaster_detail.html"
     },
     {
         title: "Flood",
         description: "Heavy rainfall leads to severe flooding in multiple cities.",
         date: "July 10, 2023",
+        link: "disaster_detail.html"
     },
     {
         title: "Wildfire",
         description: "Large wildfire spreads in forested areas, causing evacuations.",
         date: "June 5, 2023",
+        link: "disaster_detail.html"
     },
     // Add more disaster items as needed
 ];
@@ -38,7 +42,8 @@ function displayMoreItems() {
             <h5 class="mb-1">${disaster.title}</h5>
             <p class="mb-1">${disaster.description}</p>
             <small class="text-muted">Date: ${disaster.date}</small>
-        `;
+            <a href="${disaster.link}">Details</a>`
+        ;
 
         listGroup.appendChild(listItem);
     });
