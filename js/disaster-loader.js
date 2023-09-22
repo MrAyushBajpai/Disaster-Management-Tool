@@ -5,27 +5,27 @@ const listGroup = document.querySelector(".list-group");
 let displayedItems = 0; // Number of items initially displayed
 const allDisasters = [
     {
-        title: "Tropical Cyclone",
-        description: "Category 4 cyclone strikes coastal region.",
-        date: "September 1, 2023",
+        title: "Cyclone Biperjoy",
+        description: "Category 4 cyclone strikes Gujrat coastal region.",
+        date: "6 June, 2023",
         link: "disaster_detail.html"
     },
     {
-        title: "Earthquake",
-        description: "Magnitude 6.2 earthquake hits nearby area.",
-        date: "August 25, 2023",
+        title: "Cyclone Asani",
+        description: "Category 3 cyclone strikes Andhra Pradesh and Odisha coasts.",
+        date: " May 10, 2023",
         link: "disaster_detail.html"
     },
     {
-        title: "Flood",
-        description: "Heavy rainfall leads to severe flooding in multiple cities.",
-        date: "July 10, 2023",
+        title: "Uttarakhand Flash Floods",
+        description: "Heavy rainfall triggers landslides and flash floods in Uttarakhand, causing widespread damage.",
+        date: "July 18, 2022",
         link: "disaster_detail.html"
     },
     {
-        title: "Wildfire",
-        description: "Large wildfire spreads in forested areas, causing evacuations.",
-        date: "June 5, 2023",
+        title: "Northeast India Earthquake",
+        description: "Magnitude 6.4 earthquake strikes Assam and neighboring states.",
+        date: "March 28, 2022",
         link: "disaster_detail.html"
     },
     // Add more disaster items as needed
