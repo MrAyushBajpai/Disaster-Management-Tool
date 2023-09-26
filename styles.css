@@ -275,10 +275,6 @@ body {
     padding: 20px;
 }
 
-.earthquake-list {
-    
-}
-
 .earthquake-list .list-group-item{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -293,7 +289,7 @@ body {
     margin: 0 auto; /* Center the quiz container horizontally */
     margin-top: 100px;
     margin-bottom:100px;
-    height:100%
+    height:100%;
 }
 
 .questions-block h2 {
