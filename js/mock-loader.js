@@ -54,12 +54,14 @@ const exercises = {
                 options: ["To avoid paying attention to the earthquake", "To perform a gymnastics routine", "To protect yourself from falling objects and debris", "To take shelter in a basement"],
                 correctAnswer: 2,
                 backgroundImage: "img/earthquake-questions/1.png"
+                backgroundImage: "img/earthquake-questions/9.png"
             },
             {
                 question: "Which type of earthquake waves are the fastest and arrive first during an earthquake?",
                 options: ["S-waves (Shear waves)", "P-waves (Primary waves)", "L-waves (Love waves)", "R-waves (Rayleigh waves)"],
                 correctAnswer: 1,
                 backgroundImage: "img/earthquake-questions/1.png"
+                backgroundImage: "img/earthquake-questions/10.png"
             },
         ]
     },
