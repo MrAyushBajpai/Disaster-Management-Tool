@@ -275,6 +275,15 @@ body {
     padding: 20px;
 }
 
+.earthquake-list {
+    
+}
+
+.earthquake-list .list-group-item{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .questions-block {
     background-color: #f7f7f7;
     padding: 20px;
