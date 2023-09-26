@@ -38,7 +38,7 @@ body {
 
 .s-l:hover{
     cursor: pointer;
-    background-color:rgba(141, 207, 238, 0.918) ;
+    background-color: #92CACB;
     transition-delay: 0.1s;
 
 }
@@ -50,6 +50,12 @@ body {
 .nav-item .nav-link {
     color: var(--primary-text-color);
 }
+
+.nav-item:hover .nav-link:hover {
+    color: #92CACB;
+    scale: 1.05;
+}
+
 
 .text-dark {
     color: #000 !important;
