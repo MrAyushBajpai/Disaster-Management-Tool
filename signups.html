@@ -5,98 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disaster Management India</title>
     <style>
-
-
       body{
-        font-family:roboto;
         background-image: url('img/signupbg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
       }
-
-      p{
-        text-align:center;
-        padding-top:20px;
-        font-size:15px;
-      }
-
-
-      .signup-box{
-        
-        margin-top:100px;
-        height:680px;
-        width:400px;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        margin-left:37%;
-        margin-bottom:20px; 
-        
-      }
-
-      .signup{
-        font-size:30px;
-        font-family:roboto;
-        font-weight:700;
-        text-align:center;
-        
-
-    }
-
-
-    .p1{
-      text-align:center;
-    }
-
-    .p2{
-      text-align:center;
-      color:white;
-      font-size: 15px;
-      margin-top: -10px;
-      margin-bottom: 100px;
-    }
-
-    .p2 a{
-      color:#49c1a2;
-    }
-
-    form{
-      width:300px;
-      margin-left:20px;
-    }
-
-    form label{
-      display:flex;
-      margin-top:20px;
-      font-size:18px;
-
-    }
-
-    form input{
-      width:350px;
-      padding:7px;
-      border:none;
-      border:1px solid gray;
-      border-radius:6px;
-      outline:none;
-    }
-
-    input[type="button"]{
-      width:320px;
-      height:35px;
-      margin-top:20px;
-      border:none;
-      border-color:white;
-      background-color: #49c1a2;
-      font-size:18px;
-    }
-
-    .submit{
-      margin-left: 15px;
-    }
-
-    
-
     </style>
     
     
@@ -119,28 +33,26 @@
     <!-- MAIN CONTENT HERE-->
 
     <div class="signup-box">
-      <p class="signup">SignUp</p>
-      <p class="p1">It will only take a minute</p>
-
-      <form>
+      <form action="#" method="post">
+        <p class="signup">Signup</p>
+        <p class="p2 login-link">It will only take a minute</p>
         <label>First Name</label>
-        <input type="text" placeholder="First Name" required>
+        <input type="text" name="first_name" placeholder="First Name" required>
         <label>Last Name</label>
-        <input type="text" placeholder="Last Name">
+        <input type="text" name="last_name" placeholder="Last Name">
         <label>E-mail ID</label>
-        <input type="email" placeholder="E-mail ID" required>
+        <input type="email" name="email" placeholder="E-mail ID" required>
         <label>Password</label>
-        <input type="password" placeholder="Password" required>
+        <input type="password" name="password" placeholder="Password" required>
         <label>Confirm Password</label>
-        <input type="password" placeholder="Confirm Password" required>
-        <input class="submit" type="button" value="Submit" href="">
-      
-
-      
-        <p>By clicking to signup button you agree to terms and conditions and privacy policy</p>
-      </form>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <input class="submit" type="submit" value="Submit">
+        <p class="agreement-text">By clicking the sign-up button, you agree to the terms and conditions and privacy policy.</p>
+        <p class="p2 login-link">Already have an account? <a href="login.html">Login Here</a></p>
+    </form>
+    
     </div>
-    <p class="p2">Already have an account?<a href="login.html">Login Here</a></p>
+
 
 
     <!-- Footer -->
