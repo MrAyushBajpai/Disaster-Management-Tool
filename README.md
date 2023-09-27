@@ -1,4 +1,4 @@
-# Disaster Management India - Skill India Hackathon Project
+# Disaster Awareness Portal - Skill India Hackathon Project
 
 Welcome to the Disaster Management India project, created by Team DigitalSquad for the Skill India Hackathon. We are excited to present our comprehensive solution aimed at enhancing disaster preparedness, response, and recovery efforts in India.
 
