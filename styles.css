@@ -323,11 +323,18 @@ body {
     align-items: center;
     background-color: #f5f5f5;
 }
+
+.donations-block h1{
+    font-size: 60px;
+}
+
 .donation-form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 /* Styling for form elements and labels */
