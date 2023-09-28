@@ -77,8 +77,14 @@ if (navigator.geolocation) {
         // Append sorted programs to the list-group
         appendSortedProgramsToUI(programs);
     }, (error) => {
+        const sortLabel = document.getElementById('sort-label');
+        sortLabel.textContent = "Cannot Get Location. List sorted by random";
+        appendSortedProgramsToUI(programs);
         console.error('Error getting user location:', error);
     });
 } else {
+    const sortLabel = document.getElementById('sort-label');
+    sortLabel.textContent = "Cannot Get Location. List sorted by random";
+    appendSortedProgramsToUI(programs);
     console.error('Geolocation is not supported by this browser.');
 }
