@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disaster Awareness Portal</title>
+    <title>Disaster Management India</title>
+    <style>
+      body{
+        background-image: url('img/signupbg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    </style>
+    
     
     <!-- Link to your external CSS file -->
     <link rel="stylesheet" href="styles.css">
@@ -21,15 +30,30 @@
     <!-- Header -->
     <div id="navbar-container"></div>
 
-    <div class="container mt-7">
-        <h1>Community Awareness Programs for Natural Disasters</h1>
-        <h4 class="mt-3" id="sort-label">List is sorted by nearest first</h4>
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="list-group"></ul>
-            </div>
-        </div>
+    <!-- MAIN CONTENT HERE-->
+
+    <div class="signup-box">
+      <form action="#" method="post">
+        <p class="signup">Signup</p>
+        <p class="p2 login-link">It will only take a minute</p>
+        <label>First Name</label>
+        <input type="text" name="first_name" placeholder="First Name" required>
+        <label>Last Name</label>
+        <input type="text" name="last_name" placeholder="Last Name">
+        <label>E-mail ID</label>
+        <input type="email" name="email" placeholder="E-mail ID" required>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Password" required>
+        <label>Confirm Password</label>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <input class="submit" type="submit" value="Submit">
+        <p class="agreement-text">By clicking the sign-up button, you agree to the terms and conditions and privacy policy.</p>
+        <p class="p2 login-link">Already have an account? <a href="login.html">Login Here</a></p>
+    </form>
+    
     </div>
+
+
 
     <!-- Footer -->
     <div id="footer-container"></div>
@@ -38,11 +62,11 @@
     <!-- Load the JavaScript from navbar-loader.js -->
     <script src="js/navbar-loader.js"></script>
     <script src="js/footer-loader.js"></script>
-    <script src="js/cap.js"></script>
 
     <!-- Bootstrap JS and jQuery (optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
 </body>
 </html>
