@@ -5,6 +5,12 @@ const listGroup = document.querySelector(".list-group");
 let displayedItems = 0; // Number of items initially displayed
 const allDisasters = [
     {
+        title: "Earthquake: Epicenter Nepal",
+        description: "Earthquake of Magnitude 6.2 occured in Nepal and its tremors affected area near New Delhi",
+        date: "3 October, 2023",
+        link: "disaster_detail.html"
+    },
+    {
         title: "Cyclone Biperjoy",
         description: "Category 4 cyclone strikes Gujrat coastal region.",
         date: "6 June, 2023",
