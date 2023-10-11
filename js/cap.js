@@ -33,36 +33,32 @@ function appendSortedProgramsToUI(sortedPrograms) {
 
     sortedPrograms.forEach((program) => {
         const listItem = document.createElement('li');
-        listItem.classList.add('list-group-item');
+        listItem.classList.add('list-group-item', 'program-item');
 
-        // Create a text node for the city, date, and time information
+        const registerButton = document.createElement('a');
+        registerButton.classList.add('btn', 'btn-primary', 'mt-3');
+        registerButton.href = 'registration.html';
+        registerButton.textContent = 'Register Now';
+
         const cityText = document.createTextNode(program.city);
         const dateText = document.createTextNode(`Date: ${program.date}`);
         const timeText = document.createTextNode(`Time: ${program.time}`);
 
-        // Create line break elements
         const lineBreak1 = document.createElement('br');
         const lineBreak2 = document.createElement('br');
 
-        // Create a link to Google Maps with the coordinates
-        const googleMapsLink = document.createElement('a');
-        googleMapsLink.href = `https://www.google.com/maps?q=${program.latitude},${program.longitude}`;
-        googleMapsLink.target = '_blank'; // Open in a new tab
-        googleMapsLink.textContent = 'View on Google Maps';
-
-        // Append the elements to the list item
         listItem.appendChild(cityText);
         listItem.appendChild(lineBreak1);
         listItem.appendChild(dateText);
         listItem.appendChild(lineBreak2);
         listItem.appendChild(timeText);
-        listItem.appendChild(document.createElement('br')); // Create an extra line break
-        listItem.appendChild(googleMapsLink); // Add the Google Maps link
+        listItem.appendChild(document.createElement('br'));
+        listItem.appendChild(registerButton);
 
-        // Append the list item to the list group
         listGroup.appendChild(listItem);
     });
 }
+
 
 
 // Get user's location using Geolocation API

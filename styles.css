@@ -383,6 +383,10 @@ body {
     font-weight: 700;
 }
 
+.cap-list .list-group-item{
+    padding: 30px
+}
+
 .donations-block {
     background-color: #f7f7f7;
     padding: 20px;
